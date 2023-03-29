@@ -1,0 +1,174 @@
+{
+  "Headline": {
+    "EffectiveDate": "2023-03-25T07:00:00+01:00",
+    "EffectiveEpochDate": 1679724000,
+    "Severity": 2,
+    "Text": "Expect showery weather Saturday morning through Sunday evening",
+    "Category": "rain",
+    "EndDate": "2023-03-27T01:00:00+01:00",
+    "EndEpochDate": 1679875200,
+    "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?lang=en-us",
+    "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?lang=en-us"
+  },
+  "DailyForecasts": [
+    {
+      "Date": "2023-03-21T07:00:00+01:00",
+      "EpochDate": 1679378400,
+      "Temperature": {
+        "Minimum": {
+          "Value": 45,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 56,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 6,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=1&lang=en-us",
+      "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=1&lang=en-us"
+    },
+    {
+      "Date": "2023-03-22T07:00:00+01:00",
+      "EpochDate": 1679464800,
+      "Temperature": {
+        "Minimum": {
+          "Value": 50,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 62,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 7,
+        "IconPhrase": "Cloudy",
+        "HasPrecipitation": false
+      },
+      "Night": {
+        "Icon": 18,
+        "IconPhrase": "Rain",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=2&lang=en-us",
+      "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=2&lang=en-us"
+    },
+    {
+      "Date": "2023-03-23T07:00:00+01:00",
+      "EpochDate": 1679551200,
+      "Temperature": {
+        "Minimum": {
+          "Value": 49,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 59,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=3&lang=en-us",
+      "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=3&lang=en-us"
+    },
+    {
+      "Date": "2023-03-24T07:00:00+01:00",
+      "EpochDate": 1679637600,
+      "Temperature": {
+        "Minimum": {
+          "Value": 46,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 61,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 13,
+        "IconPhrase": "Mostly cloudy w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 38,
+        "IconPhrase": "Mostly cloudy",
+        "HasPrecipitation": false
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=4&lang=en-us",
+      "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=4&lang=en-us"
+    },
+    {
+      "Date": "2023-03-25T07:00:00+01:00",
+      "EpochDate": 1679724000,
+      "Temperature": {
+        "Minimum": {
+          "Value": 44,
+          "Unit": "F",
+          "UnitType": 18
+        },
+        "Maximum": {
+          "Value": 55,
+          "Unit": "F",
+          "UnitType": 18
+        }
+      },
+      "Day": {
+        "Icon": 13,
+        "IconPhrase": "Mostly cloudy w/ showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Night": {
+        "Icon": 12,
+        "IconPhrase": "Showers",
+        "HasPrecipitation": true,
+        "PrecipitationType": "Rain",
+        "PrecipitationIntensity": "Light"
+      },
+      "Sources": ["AccuWeather"],
+      "MobileLink": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=5&lang=en-us",
+      "Link": "http://www.accuweather.com/en/de/berlin/10178/daily-weather-forecast/178087?day=5&lang=en-us"
+    }
+  ]
+}
