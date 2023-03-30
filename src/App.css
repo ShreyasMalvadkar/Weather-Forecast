@@ -62,10 +62,13 @@ body {
   width: 250px;
   padding: 5px;
   margin-top: 50px;
+  margin-left: 1px;
+  margin-right: 1px;
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(10px);
   border-radius: 10px;
   align-items: center;
   display: inline-block;
   text-align: center;
+  justify-content: center;
 }

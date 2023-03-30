@@ -1,15 +1,15 @@
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
-import { dataSelector } from "../selectors/weatherInfoSelector";
+import { dataSelector, hasErrorsSelector } from "../selectors/weatherInfoSelector";
 
 const WeatherForecast=()=>{
 
     const weatherData = useSelector(dataSelector);
-
+    const hasErrors= useSelector(hasErrorsSelector);
     const degreeSymbol = "\u00b0";
   
-    if (!weatherData) return <></>;
+    if (!weatherData || hasErrors) return <></>;
   
     const {
       Headline: { Text: headline },
