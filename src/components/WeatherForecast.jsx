@@ -20,7 +20,7 @@ const WeatherForecast=()=>{
         <div className="container-fluid">
         <Container>
             <Row>
-                <Col><h1 className="subheading">{headline}</h1></Col>
+                <Col><h1 className="subheading border">{headline}</h1></Col>
             </Row>
         </Container>
 

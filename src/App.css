@@ -25,10 +25,11 @@ body {
   margin-top: 150px;
   color: white;
   font-weight:bold;
-  font-family: "Lucida Console", "Courier New", monospace;
+  font-family: cursive;
   background-color: rgba(255, 255, 255, .15);  
   backdrop-filter: blur(10px);
   border-radius: 10px;
+  -webkit-text-stroke: 1.5px rgb(0, 0, 0);
 }
 
 .dropdown{
