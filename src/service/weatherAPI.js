@@ -8,7 +8,7 @@ import { API_BASE_URL } from "../constants";
 
 export const getWeatherData = (locationKey, dispatch) => {
   // dispatch(getWeatherSuccess(sampleResponse));
-  console.log(process.env.REACT_APP_API_KEY);
+  //console.log(process.env.REACT_APP_API_KEY);
   axios
     .get(`${API_BASE_URL}/${locationKey}`, {
       params: {

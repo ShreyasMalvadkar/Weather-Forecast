@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { useSelector } from "react-redux";
 import { dataSelector, hasErrorsSelector } from "../selectors/weatherInfoSelector";
+import Card from "./Card";
 
 const WeatherForecast=()=>{
 
@@ -36,21 +37,10 @@ const WeatherForecast=()=>{
               const maxTemp = forecast.Temperature.Maximum;
               const minTempStr = `${minTemp.Value} ${degreeSymbol}${minTemp.Unit}`;
               const maxTempStr = `${maxTemp.Value} ${degreeSymbol}${maxTemp.Unit}`;
-
+                var obj={date,iconPhrase,minTempStr,maxTempStr};
               return (
                 <li className="tempCards" key={idx} alignItems={"stretch"} >
-                    <div className="card">
-                        <div className="card-header">
-                        <i>{date}</i>
-                        <br/>
-                        {iconPhrase}
-                        </div>
-                    <div className="card-body">
-                    <blockquote className="blockquote">
-                    <div> {minTempStr} / {maxTempStr}</div>
-                    </blockquote>
-                    </div>
-                    </div>
+                    <Card date={date} iconPhrase={iconPhrase} minTempStr={minTempStr} maxTempStr={maxTempStr}/>
                </li>
               );
             })}
